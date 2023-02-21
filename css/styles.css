@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: iranyekan;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/eot/IRANYekanWebBold.eot');
+    src: url('../fonts/eot/IRANYekanWebBold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/woff/IRANYekanWebBold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/woff2/IRANYekanWebBold.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../fonts/ttf/IRANYekanWebBold.ttf') format('truetype');
+}
+
+html {
+    font-family: iranyekan, serif;
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+    font-family: iranyekan, serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(12, 103, 189);
+}
+
+.myInput {
+    width: 100%;
+    padding: 10px 18px;
+}
+
+.container {
+    padding: 16px;
+    background: #fff;
+    width: 50%;
+    border-radius: 8px;
+}
+
+button {
+    font-family: iranyekan, serif;
+    background: #f90;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 16px;
+    width: 100%;
+    padding: 8px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.text-right {
+    text-align: right;
+}
